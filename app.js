@@ -5,22 +5,15 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-
-console.log("txtInput")
+var outputDiv = document.querySelector("#output");
 
 
 function clickHandler(){
-    console.log("clicked!");
-    console.log("input", txtInput.value);
+    outputDiv.innerText="aajajajajajja " + txtInput.value;
 };
 
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click", clickHandler)  //  taken the input(in var) wired the click handler (here)thus in the function part 
 
 
 
-// listening to events occuring due to user interaction 
-
-//call back - whem this event happens do this 
-//function clickEventHandler() {
-//   console.log("clicked!")         this entire function is call back 
 
