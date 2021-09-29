@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+
+:root{
+    --primary: #fdc500;
+    --black: #231f20;
+    --blue: #003f88;
+    
+    --width-break: 600px;
+}
+nav{
+    background: var(--blue);
+    font-size: 2rem;
+    color: white;
+    text-align:center;
+    display: block;
+    /* padding for controling nav bar box size */
+    padding: 1rem;  
+    
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    
+}
+
+main img{
+    max-width: 200%;
+    max-height: 200%;
+}
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+ 
+}
+
+button {
+    background: linear-gradient(to right,#0072f5 ,#fdc500 );
+    border: none;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: none;
+
+}
+
+#output {
+    box-sizing: border-box;
+    padding: 1rem;
+    font-size: large;
+    display: block;
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 2rem;
+
+}
+
+footer {
+    background-color: var(--primary);
+    position:fixed;
+    bottom: 0;       /*works only when position is set to 0 */
+    width: 100%;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    padding-bottom: 1rem;
+    font-size: large;
+}
