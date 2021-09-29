@@ -32,10 +32,8 @@ main{
     
 }
 
-main img{
-    max-width: 200%;
-    max-height: 200%;
-}
+
+
 textarea{
     box-sizing: border-box;
     display: block;
@@ -43,6 +41,7 @@ textarea{
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
+    background: transparent ;
  
 }
 
@@ -82,4 +81,13 @@ footer p {
     margin: auto;
     padding-bottom: 1rem;
     font-size: large;
+}
+
+.images {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+    background: linear-gradient(var(--primary));
 }
